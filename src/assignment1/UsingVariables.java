@@ -1,4 +1,4 @@
-package assignment2;
+package assignment1;
 public class UsingVariables {
 	//java program to find the factorial of a number
 	static int fact(int n) {

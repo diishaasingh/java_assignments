@@ -1,5 +1,5 @@
 //Write program to output 10 random numbers between 100 and 200 inclusive, using Java Random class.
-package assignment2;
+package assignment1;
 
 import java.util.Random;
 public class JavaRandomClass {

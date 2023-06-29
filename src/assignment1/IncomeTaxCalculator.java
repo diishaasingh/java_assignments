@@ -1,4 +1,4 @@
-package assignment2;
+package assignment1;
 
 public class IncomeTaxCalculator {
     public static double calculateTax(double salary) {

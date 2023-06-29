@@ -1,4 +1,4 @@
-package assignment2;
+package assignment1;
 import java.util.*;
 public class FrequencyOfCharacters {
     static void frequency(String str) {

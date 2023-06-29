@@ -1,10 +1,8 @@
-package assignment2;
-import java.util.ArrayList;
-import java.util.List;
+package assignment1;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Array3 {
+public class Array2 {
     public static void main(String[] args) {
         int[] array = new int[10];
         Random random = new Random();
@@ -29,27 +27,20 @@ public class Array3 {
 
         // Search through the array to find the slots where the value is located
         boolean found = false;
-        List<Integer> slots = new ArrayList<>();
+        int lastSlot = -1;
         for (int i = 0; i < array.length; i++) {
             if (array[i] == target) {
                 found = true;
-                slots.add(i);
+                lastSlot = i;
+                System.out.println(target + " is in slot " + i + ".");
             }
         }
 
         // Display a message if the value is not found
         if (!found) {
             System.out.println(target + " is not in the array.");
-        } else {
-            System.out.print(target + " is in slot");
-            for (int i = 0; i < slots.size(); i++) {
-                if (i == slots.size() - 1) {
-                    System.out.print(" " + slots.get(i) + ".");
-                } else {
-                    System.out.print(" " + slots.get(i) + ",");
-                }
-            }
-            System.out.println();
+        } else if (lastSlot != -1) {
+            System.out.println("Last appearance of " + target + " is in slot " + lastSlot + ".");
         }
     }
 

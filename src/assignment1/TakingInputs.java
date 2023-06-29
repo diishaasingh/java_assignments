@@ -1,7 +1,7 @@
 //User Input vs Program arguments
 //Write program to take user’s name as input, print “hello <user name>”
 //Now write same program but input should be as an argument to the program.
-package assignment2;
+package assignment1;
 
 import java.util.Scanner;
 public class TakingInputs {
