@@ -1,10 +1,13 @@
 package assignment2;
 import java.util.*;
 
-public class Exception1 {
-	public static void checkEvenNumber(int n) throws Exception {
+public class Exception1 extends Exception {
+	public Exception1(String message) {
+        super(message);
+    }
+	public static void checkEvenNumber(int n) throws Exception1 {
 		if (n % 2 != 0) {
-			throw new Exception("Odd number exception");
+			throw new Exception1("Odd number exception");
 		}
 	}
 

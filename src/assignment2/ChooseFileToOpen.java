@@ -16,7 +16,8 @@ public class ChooseFileToOpen {
             
             try (BufferedReader fileReader = new BufferedReader(new FileReader(fileName))) {
                 String line = fileReader.readLine();
-                String[] numbers = line.split("\\s+");
+                
+                String[] numbers = line.split(" ");
                 
                 int total = 0;
                 for (String number : numbers) {

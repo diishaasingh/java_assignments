@@ -12,7 +12,7 @@ public class CaizinAddress {
             
             while (scanner.hasNextLine()) {
                 String line = scanner.nextLine();
-                if (line.contains("Caizin's office address")) {
+                if (line.contains("Caizin (Reg. Ofc.)")) {
                     System.out.println(line);
                     break;
                 }

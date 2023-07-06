@@ -32,9 +32,11 @@ public class StaticMethods {
         Child1 child = new Child1();
         child.nonStaticMethod(); 
 
-        Parent1 var = new Child1();
-        var.nonStaticMethod(); 
-        var.staticMethod();
+        Parent1 childVariable = new Child1();
+        childVariable.nonStaticMethod(); 
+        childVariable.staticMethod();
+        
+        //static method should be called using className
     }
 }
 
