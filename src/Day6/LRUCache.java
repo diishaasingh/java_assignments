@@ -9,7 +9,7 @@ class LRUCache {
 	int capacity;
 
 	public LRUCache(int capacity) {
-		this.capacity = capacity; 
+		this.capacity = capacity;
 		head.next = tail;
 		tail.prev = head;
 	}

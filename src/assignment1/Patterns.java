@@ -1,5 +1,4 @@
 package assignment1;
-import java.util.*;
 
 public class Patterns {
 	static void print_pattern(int n) {

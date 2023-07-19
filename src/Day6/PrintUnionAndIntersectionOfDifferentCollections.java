@@ -25,20 +25,19 @@ public class PrintUnionAndIntersectionOfDifferentCollections {
 			}
 		}
 		System.out.println("Intersection: " + intersection);
-		
+
 		Set<Integer> union = new HashSet<>();
-		for(Integer i:list) {
+		for (Integer i : list) {
 			union.add(i);
 		}
-		for(Integer i:set) {
+		for (Integer i : set) {
 			set.add(i);
 		}
 		System.out.println("Union: " + union);
 
-		//can be done using collections also
-		//Set me list pass krdo then usme .retainAll(set) krdo
-		//similarly addAll bhi kr skte h
-		
+		// can be done using collections also
+		// Set me list pass krdo then usme .retainAll(set) krdo
+		// similarly addAll bhi kr skte h
 
 	}
 

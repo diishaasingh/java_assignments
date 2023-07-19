@@ -9,7 +9,7 @@ class Parent3 {
 class Child3 extends Parent3 {
 	public void method() throws Exception {
 		System.out.println("Child's method");
-		int result = 10/ 0; 
+		int result = 10 / 0;
 	}
 }
 

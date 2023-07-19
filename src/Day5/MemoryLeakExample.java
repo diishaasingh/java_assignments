@@ -1,15 +1,15 @@
 package Day5;
 
-import java.util.*;
+import java.util.ArrayList;
 
 public class MemoryLeakExample {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		ArrayList<Integer> li = new ArrayList<>();
-	while(true) {
+		while (true) {
 			li.add(1);
-	}
+		}
 
 //		int n = 1000000;
 //

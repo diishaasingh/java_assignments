@@ -3,7 +3,6 @@ package Day6;
 import java.util.LinkedList;
 import java.util.Queue;
 
-
 public class Stack {
 
 	Queue<Integer> q1 = new LinkedList<>();
@@ -46,20 +45,20 @@ public class Stack {
 	}
 
 	public static void main(String[] args) {
-     Stack s=new Stack();
-     s.push(1);
-     s.push(2);
-     s.push(3);
-     s.push(4);
-     System.out.println("current size: " + s.size());
-     System.out.println(s.top());
-     s.pop();
-     System.out.println(s.top());
-     s.pop();
-     System.out.println(s.top());
-     System.out.println("current size: " + s.size());
-     s.push(5);
-     System.out.println(s.top());
+		Stack s = new Stack();
+		s.push(1);
+		s.push(2);
+		s.push(3);
+		s.push(4);
+		System.out.println("current size: " + s.size());
+		System.out.println(s.top());
+		s.pop();
+		System.out.println(s.top());
+		s.pop();
+		System.out.println(s.top());
+		System.out.println("current size: " + s.size());
+		s.push(5);
+		System.out.println(s.top());
 
 	}
 

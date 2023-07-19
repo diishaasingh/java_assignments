@@ -1,6 +1,8 @@
 package Day6;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Set;
 
 public class Assignment2 {
 
@@ -34,15 +36,14 @@ public class Assignment2 {
 		list1.add(1);
 		list1.add(3);
 		System.out.println("the size of integer list is " + list1.size());
-		
-		ArrayList<String> list2=new ArrayList<>();
+
+		ArrayList<String> list2 = new ArrayList<>();
 		list2.add("one");
 		list2.add("two");
 		list2.add("three");
 		list2.add("one");
 		list2.add("two");
 		System.out.println("the size of string list is: " + list2.size());
-
 
 	}
 

@@ -5,13 +5,13 @@ public class RuntimePolymorphism {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Animal animal = new Animal();
-        animal.makesSound(); 
+		animal.makesSound();
 
-        Lion lion = new Lion();
-        lion.makesSound(); 
+		Lion lion = new Lion();
+		lion.makesSound();
 
-        Animal animalLion = new Lion();
-        animalLion.makesSound(); 
+		Animal animalLion = new Lion();
+		animalLion.makesSound();
 	}
 
 }

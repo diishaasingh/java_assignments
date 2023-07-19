@@ -13,7 +13,6 @@ public class PrintIntersectionAndUnionOfList {
 		list1.add(3);
 		list1.add(2);
 
-
 		list2.add(2);
 		list2.add(2);
 		list2.add(3);
@@ -25,8 +24,8 @@ public class PrintIntersectionAndUnionOfList {
 		// creating a new ArrayList for storing union of list1 and list2
 		ArrayList<Integer> union = new ArrayList<>(list1);
 		union.addAll(list2);
-		System.out.println("list1: "+list1);
-		System.out.println("list2: "+list2);
+		System.out.println("list1: " + list1);
+		System.out.println("list2: " + list2);
 
 		System.out.println("Intersection: " + intersection);
 		System.out.println("Union " + union);

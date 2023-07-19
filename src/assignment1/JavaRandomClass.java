@@ -2,14 +2,15 @@
 package assignment1;
 
 import java.util.Random;
+
 public class JavaRandomClass {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Random r=new Random();
-		
-		for(int i=0;i<10;i++) {
-			int number=r.nextInt(101)+100;
+		Random random = new Random();
+
+		for (int i = 0; i < 10; i++) {
+			int number = random.nextInt(101) + 100;
 			System.out.println(number);
 		}
 //nextInt(101) finds random numbers btw 0 to 100 so we add 100 so that the number 

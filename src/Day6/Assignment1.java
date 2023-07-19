@@ -1,7 +1,9 @@
 package Day6;
 
 //Create an ArrayList of Integers, fill with a different random values from 1-100. Display those values on the screen, then prompt the user for an integer. Search through the ArrayList, and if the item is present, give the slot number(s) where it is located. 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Random;
+import java.util.Scanner;
 
 public class Assignment1 {
 

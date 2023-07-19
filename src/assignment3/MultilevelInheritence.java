@@ -51,13 +51,13 @@ class Circle2 extends Shape1 {
 public class MultilevelInheritence {
 	public static void main(String[] args) {
 		Shape1 shape = new Shape1();
-		shape.display(); 
+		shape.display();
 
 		Quadrilateral quadrilateral = new Quadrilateral();
-		quadrilateral.display(); 
+		quadrilateral.display();
 
 		Parallelogram parallelogram = new Parallelogram();
-		parallelogram.display(); 
+		parallelogram.display();
 
 		Rectangle2 rectangle = new Rectangle2();
 		rectangle.display();
